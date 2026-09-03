@@ -4,22 +4,37 @@
     font-family: Arial, sans-serif;
     padding: 20px;
     background-color: green;
-    text-align: center;
     color: black;
 
     }
 .cabecalho{
     background-color: #f54242;
+    text-align: center;
+
 }
 .principal{
     color: blue;
     font-weight: bold;
-    height: 32px;
+    font-size: 32px;
 }
 .subtitulo{
     color:gold;
 }
 .conteudo{
-    background-color: blueviolet;
+    background-color: rgb(199, 190, 207);
     color: orangered;
+}
+.conteudo >p{
+    color: #E4005A;
+    font-size: 42px;
+}
+.conteudo >p:nth-of-type(3){
+    color: purple;
+    vertical-align:sub;
+    font-size: 42px;
+}
+@media (max-width: 480px) {
+    .container {
+        background-color: #ADD8E6;
+    }
 }
